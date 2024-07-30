@@ -9,7 +9,7 @@ public class Survey {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nama;
+    private String name;
     private String description;
     @Column(name = "create_at")
     private Date createAt;
@@ -19,8 +19,8 @@ public class Survey {
     public Survey() {
     }
 
-    public Survey(String nama, String description, Date createAt, Date updateAt) {
-        this.nama = nama;
+    public Survey(String name, String description, Date createAt, Date updateAt) {
+        this.name = name;
         this.description = description;
         this.createAt = createAt;
         this.updateAt = updateAt;
@@ -36,12 +36,12 @@ public class Survey {
         this.id = id;
     }
 
-    public String getNama() {
-        return nama;
+    public String getName() {
+        return name;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setNama(String name) {
+        this.name = name;
     }
 
     public String getDescription() {
@@ -72,7 +72,7 @@ public class Survey {
     public String toString() {
         return "Survey{" +
             "id=" + id +
-            ", nama='" + nama + '\'' +
+            ", name='" + name + '\'' +
             ", description='" + description + '\'' +
             ", createAt=" + createAt +
             ", updateAt=" + updateAt +
