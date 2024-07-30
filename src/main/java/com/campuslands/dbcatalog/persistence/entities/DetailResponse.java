@@ -21,11 +21,13 @@ public class DetailResponse {
     public DetailResponse() {
     }
 
+
     public DetailResponse(Integer responseOption, String responseText) {
         this.responseOption = responseOption;
         this.responseText = responseText;
     }
 
+    //gettes y settes
     public Long getId() {
         return id;
     }
@@ -69,12 +71,12 @@ public class DetailResponse {
     @Override
     public String toString() {
         return "DetailResponse{" +
-                "id=" + id +
-                ", responseOption=" + responseOption +
-                ", responseText='" + responseText + '\'' +
-                ", question=" + question +
-                ", response=" + response +
-                '}';
+            "id=" + id +
+            ", responseOption=" + responseOption +
+            ", responseText='" + responseText + '\'' +
+            ", question=" + question +
+            ", response=" + response +
+            '}';
     }
 }
 

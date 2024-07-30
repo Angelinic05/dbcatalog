@@ -26,6 +26,8 @@ public class Survey {
         this.updateAt = updateAt;
     }
 
+    //gettes y settes
+
     public Long getId() {
         return id;
     }
@@ -69,12 +71,12 @@ public class Survey {
     @Override
     public String toString() {
         return "Survey{" +
-                "id=" + id +
-                ", nama='" + nama + '\'' +
-                ", description='" + description + '\'' +
-                ", createAt=" + createAt +
-                ", updateAt=" + updateAt +
-                '}';
+            "id=" + id +
+            ", nama='" + nama + '\'' +
+            ", description='" + description + '\'' +
+            ", createAt=" + createAt +
+            ", updateAt=" + updateAt +
+            '}';
     }
 }
 

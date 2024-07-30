@@ -30,7 +30,7 @@ public class ResponseCatalog {
     }
 
     
-    //get and set
+    //gettes y settes
     public Long getId() {
         return id;
     }

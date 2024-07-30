@@ -30,6 +30,7 @@ public class ResponseOption {
         this.questionParent = questionParent;
     }
 
+    //gettes y settes
     public Long getId() {
         return id;
     }
@@ -81,11 +82,11 @@ public class ResponseOption {
     @Override
     public String toString() {
         return "ResponsOption{" +
-                "id=" + id +
-                ", optionValue='" + optionValue + '\'' +
-                ", commentResponse='" + commentResponse + '\'' +
-                ", optionText='" + optionText + '\'' +
-                ", questionParent=" + questionParent +
-                '}';
+            "id=" + id +
+            ", optionValue='" + optionValue + '\'' +
+            ", commentResponse='" + commentResponse + '\'' +
+            ", optionText='" + optionText + '\'' +
+            ", questionParent=" + questionParent +
+            '}';
     }
 }

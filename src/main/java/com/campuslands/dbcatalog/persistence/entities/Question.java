@@ -30,6 +30,7 @@ public class Question {
         this.commentQuestion = commentQuestion;
     }
 
+    //gettes y settes
     public Long getId() {
         return id;
     }
@@ -89,12 +90,12 @@ public class Question {
     @Override
     public String toString() {
         return "Question{" +
-                "id=" + id +
-                ", questionNumber='" + questionNumber + '\'' +
-                ", questionText='" + questionText + '\'' +
-                ", questionType='" + questionType + '\'' +
-                ", commentQuestion='" + commentQuestion + '\'' +
-                '}';
+            "id=" + id +
+            ", questionNumber='" + questionNumber + '\'' +
+            ", questionText='" + questionText + '\'' +
+            ", questionType='" + questionType + '\'' +
+            ", commentQuestion='" + commentQuestion + '\'' +
+            '}';
     }
 }
 

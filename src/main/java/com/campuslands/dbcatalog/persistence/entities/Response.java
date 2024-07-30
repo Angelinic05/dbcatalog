@@ -30,6 +30,7 @@ public class Response {
         this.responseDate = responseDate;
     }
 
+    //gettes y settes
     public Long getId() {
         return id;
     }

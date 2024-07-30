@@ -13,6 +13,7 @@ public class Catalog {
     public Catalog() {
     }
 
+    //gettes y settes
     public Catalog(String name) {
         this.name = name;
     }
@@ -36,8 +37,8 @@ public class Catalog {
     @Override
     public String toString() {
     return "Catalog{" +
-            "id=" + id +
-            ", name='" + name + '\'' +
-            '}';
+        "id=" + id +
+        ", name='" + name + '\'' +
+        '}';
 }
 }

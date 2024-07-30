@@ -23,6 +23,7 @@ public class Chapter {
         this.chapterTitle = chapterTitle;
     }
 
+    //gettes y settes
     public Long getId() {
         return id;
     }
@@ -58,10 +59,10 @@ public class Chapter {
     @Override
     public String toString() {
         return "Chapter{" +
-                "id=" + id +
-                ", chapterNumber='" + chapterNumber + '\'' +
-                ", chapterTitle='" + chapterTitle + '\'' +
-                '}';
+            "id=" + id +
+            ", chapterNumber='" + chapterNumber + '\'' +
+            ", chapterTitle='" + chapterTitle + '\'' +
+            '}';
     }
 }
 
